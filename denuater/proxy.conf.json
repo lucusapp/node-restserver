@@ -1,0 +1,10 @@
+{
+  "/api/scrape/*": {
+    "target": "https://servidor2018.herokuapp.com/",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "changeOrigin": true
+  }
+}
